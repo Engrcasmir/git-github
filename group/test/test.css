@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-transform: uppercase;
+    text-decoration:none;
+    
+}
+.head{
+    width: auto;
+    height: 40px;
+    background-color: silver;
+    margin-top:0px;
+    font-family:'monotype corsiva','apple chancery','itc zapf chancery','URW chancery L',cursive;
+    font-size: 22px;
+    font-display: inherit;
+    
+}
+
+.header-container{
+    color: #fff;
+    background-color: #5995da;
+    display: flex;
+    justify-content: center;
+    border: 1px solid silver;
+    flex-wrap: wrap
+
+}
+.menu{
+    border:1px solid #fff;
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+
+}/*
+.link{
+    justify-content:flex-start;
+    display:flex;
+    border: 1px solid #fff;
+    background-color: lightblue;
+    
+
+}
+.login{
+    margin-left:20px;
+}*/
+
+.tittle{
+    background-color: lightblue;
+    display:flex;
+    text-align: center;
+    color: green;
+    font-size: 275%;
+    border: 1px solid #fff;
+    justify-content: space-around;
+    height: 50px;
+    text-align: justify;
+    
+}
+.navigation-container{
+    width: 100%;
+    height: 100px;
+    background-color:lightcyan;
+    border: 2px solid gold;
+    display: flex;
+    justify-content: center;
+}
+.navigation{
+        width: 100%;
+        border: 1px solid silver;
+        font-size: 200%;
+        display: flex;
+        justify-content:space-around;
+        margin-top: 0px;
+        text-align: center
+}
+                                                /*             navigation child        */
+.firmware{
+    margin-left: 15px;
+
+}
+.flashing-tools{
+    margin-left: 15px;
+}
+
+.computer-software{
+    margin-left: 15px;
+}
+
+.android-game{
+    margin-left: 15px;
+}
+
+.tutorial{
+    margin-left: 15px;
+}
+
+                                                 /*             navigation child     ends   */
+
+
+ .main-container{
+     width: 100%;
+     height: 800px;
+     border: 1px solid white;
+     margin-top:10px;
+     display: flex;
+     justify-content: flex-start;
+ }
+ 
+ .main{
+     
+     display: flex;
+     justify-content: flex-start;
+     width: 100%;
+     height: 800px;
+     
+
+ }
+                                                  /*                          main child          */
+ .main1{
+         width: 450px;
+         height:800px;
+         border: 1px solid red;
+         margin-left:0px;
+     }
+
+     .main2{
+        width: 1000px;
+        height:800px;
+        border: 1px solid red;
+        margin-left: 20px;
+        display:flex;
+        justify-content: space-between;
+    }
+.download-game{
+        
+        
+    }
+    .main3{
+        width: 450px;
+        height:800px;
+        border: 1px solid red;
+        margin-left: 20px;
+        margin-right: 0px;
+    }
+    
+
+                                               /*                          main child         ends */
+
+.footer-container{
+    width: 100%;
+    height: 100px;
+    margin-top: 10px;
+    border: 1px solid white;
+} 
+
+.footer{
+    width: 100%;
+    height: 100px;
+    background-color: lightgray;
+}
